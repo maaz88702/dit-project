@@ -1,0 +1,41 @@
+@media (max-width:769px) {
+
+    nav {
+        padding: 15px 20px;
+
+    }
+
+    nav img {
+        height: 13vh;
+
+
+    }
+
+    nav .humbarg {
+        display: initial;
+    }
+
+    nav div ul {
+        /* display: flex; */
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: flex-start;
+        position: absolute;
+        top: 0;
+        right: -220px;
+        width: 220px;
+        background-color: rgba(17, 20, 104, 0.45);
+        height: 100vh;
+        backdrop-filter: blur(4.5px);
+    }
+
+    nav div ul a {
+        color: #fff;
+    }
+
+    nav div ul li .close-menu {
+        display: initial;
+    }
+
+
+}
